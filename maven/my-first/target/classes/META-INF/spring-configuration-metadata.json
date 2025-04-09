@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "mygroup",
+      "type": "mygroup.MygroupProperties",
+      "sourceType": "mygroup.MygroupProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "mygroup.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable mygroup features. Default is true.",
+      "sourceType": "mygroup.MygroupProperties"
+    },
+    {
+      "name": "mygroup.greeting",
+      "type": "java.lang.String",
+      "description": "The greeting message to use. Default is \"Hello from mygroup starter!\"",
+      "sourceType": "mygroup.MygroupProperties"
+    }
+  ],
+  "hints": []
+}
